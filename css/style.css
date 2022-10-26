@@ -158,11 +158,22 @@ header {
   color: var(--color-grey);
   text-decoration: none;
 }
+
+.header-icon-envelope:hover,
+.header-icon-envelope:focus,
 .nav-mail:hover,
 .nav-mail:focus,
 .nav-number:hover,
 .nav-number:focus {
   color: var(--hover-color);
+}
+.header-icon-envelope:hover svg,
+.header-icon-envelope:focus svg,
+.nav-mail:hover svg,
+.nav-mail:focus svg,
+.nav-number:hover svg,
+.nav-number:focus svg {
+  --color2: #2196f3;
 }
 /* Main*/
 
@@ -170,6 +181,7 @@ header {
   padding: 200px 0;
   text-align: center;
   background-color: var(--color-grey2);
+  background-image: url(../images/background-photo-index\\(1\).jpg);
 }
 .section-1-h1 {
   margin-bottom: 30px;
@@ -198,7 +210,10 @@ header {
 }
 .icon-antenna-1 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--color-very-light-grey);
+  border-radius: 4px;
 }
 
 .icon-clock-1 {
