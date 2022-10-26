@@ -181,7 +181,7 @@ header {
   padding: 200px 0;
   text-align: center;
   background-color: var(--color-grey2);
-  background-image: url(../images/background-photo-index\ \(1\).jpg)
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/background-photo-index\ \(1\).jpg); 
 
 
 }
