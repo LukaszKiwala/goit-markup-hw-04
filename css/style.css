@@ -196,6 +196,22 @@ header {
   cursor: pointer;
   border: none;
 }
+.icon-antenna-1 {
+  display: flex;
+  background: var(--color-very-light-grey);
+}
+
+.icon-clock-1 {
+  background: var(--color-very-light-grey);
+}
+
+.icon-diagram-1 {
+  background: var(--color-very-light-grey);
+}
+
+.icon-astronaut-1 {
+  background: var(--color-very-light-grey);
+}
 
 .section-2 {
   display: flex;
@@ -286,6 +302,23 @@ header {
   text-align: center;
 }
 
+/*socials index*/
+
+.icon-linkedin-1 {
+}
+
+.icon-facebook-1 {
+}
+
+.icon-twitter-1 {
+}
+
+.icon-instagram-2 {
+}
+
+.client-logo {
+}
+
 /*footer*/
 
 .footer-style {
@@ -349,6 +382,28 @@ header {
   letter-spacing: 0.02em;
   color: var(--color-grey);
   text-decoration: none;
+}
+.join-us {
+}
+
+.join-us-style {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 72px;
+  margin-left: 531px;
+  margin-bottom: 164px;
+  margin-right: 956px;
+}
+
+.footer-icons {
+  display: flex;
 }
 
 /*portfolio */
