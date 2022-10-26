@@ -180,6 +180,8 @@ header {
 /* Main*/
 
 .section-1 {
+  margin: 0 auto;
+  max-width: 1600px;
   padding: 200px 0;
   text-align: center;
   background-color: var(--color-grey2);
@@ -188,6 +190,8 @@ header {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/background-photo-index.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .section-1-h1 {
@@ -219,6 +223,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 270px;
+  height: 120px;
   background: var(--color-very-light-grey);
   border-radius: 4px;
 }
@@ -226,6 +232,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 270px;
+  height: 120px;
+
   background: var(--color-very-light-grey);
   border-radius: 4px;
 }
@@ -233,6 +242,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 270px;
+  height: 120px;
   background: var(--color-very-light-grey);
   border-radius: 4px;
 }
@@ -240,6 +251,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 270px;
+  height: 120px;
   background: var(--color-very-light-grey);
   border-radius: 4px;
 }
@@ -300,6 +313,54 @@ header {
   display: flex;
   width: 20px;
   height: 20px;
+}
+
+.icon-instagram-2 {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-instagram-2:hover {
+  background-color: var(--hover-color);
+}
+
+.icon-facebook-1 {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-facebook-1:hover {
+  background-color: var(--hover-color);
+}
+
+.icon-linkedin-1 {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-linkedin-1:hover {
+  background-color: var(--hover-color);
+}
+
+.icon-twitter-1 {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-twitter-1:hover {
+  background-color: var(--hover-color);
 }
 .section-4 {
   background-color: var(--color-very-light-grey);
@@ -373,6 +434,21 @@ header {
 .icon-client-5,
 .icon-client-6 {
   border: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-client-1:hover,
+.icon-client-2:hover,
+.icon-client-3:hover,
+.icon-client-4:hover,
+.icon-client-5:hover,
+.icon-client-6:hover {
+  --color3: var(--hover-color);
+  border: 1px solid var(--hover-color);
 }
 
 .footer-style {
