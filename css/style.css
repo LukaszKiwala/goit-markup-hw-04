@@ -138,6 +138,8 @@ header {
 
 .list-style-nav-2-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 50px;
 }
 
@@ -295,71 +297,46 @@ header {
 
 .social-icons-product-designer {
   display: flex;
-  width: 20px;
-  height: 20px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-white);
 }
 
 .social-icons-frontend-developer {
   display: flex;
-  width: 20px;
-  height: 20px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-white);
 }
 .social-icons-marketing {
   display: flex;
-  width: 20px;
-  height: 20px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-white);
 }
 .social-icons-ui-designer {
   display: flex;
-  width: 20px;
-  height: 20px;
-}
-
-.icon-instagram-2 {
-  width: 44px;
-  height: 44px;
-  border-radius: 22px;
-  display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-}
-.icon-instagram-2:hover {
-  background-color: var(--hover-color);
+  background-color: var(--color-white);
 }
 
-.icon-facebook-1 {
-  width: 44px;
-  height: 44px;
-  border-radius: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.icon-facebook-1:hover {
-  background-color: var(--hover-color);
-}
-
-.icon-linkedin-1 {
-  width: 44px;
-  height: 44px;
-  border-radius: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.icon-linkedin-1:hover {
-  background-color: var(--hover-color);
-}
-
+.icon-instagram-2,
+.icon-facebook-1,
+.icon-linkedin-1,
 .icon-twitter-1 {
-  width: 44px;
-  height: 44px;
-  border-radius: 22px;
+  background-color: var(--color-white);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 12px;
+  border-radius: 50%;
 }
+.icon-instagram-2:hover,
+.icon-facebook-1:hover,
+.icon-linkedin-1:hover,
 .icon-twitter-1:hover {
+  --color3: var(--color-white);
   background-color: var(--hover-color);
 }
 .section-4 {
@@ -374,6 +351,7 @@ header {
   letter-spacing: 0.03em;
   line-height: 1.1;
   margin-bottom: 50px;
+  background-color: var();
 }
 
 .list-style-section-4 {
@@ -386,6 +364,7 @@ header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--color-white);
 }
 .section-4-h4 {
   font-style: normal;
@@ -410,6 +389,8 @@ header {
 }
 
 .section-4a-h2 {
+  display: flex;
+  justify-content: center;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -593,6 +574,10 @@ header {
 }
 .list-item-section-5 img {
   display: block;
+}
+.list-item-section-5:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .section-5-h4 {
   font-style: normal;
