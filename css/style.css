@@ -143,16 +143,6 @@ header {
   gap: 50px;
 }
 
-.nav-mail {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--color-grey);
-  text-decoration: none;
-}
-
 .nav-number {
   font-style: normal;
   font-weight: 500;
@@ -161,20 +151,29 @@ header {
   letter-spacing: 0.02em;
   color: var(--color-grey);
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-icon-envelope {
+  margin-right: 10px;
+  display: block;
+}
+
+.header-icon-smartphone {
+  margin-right: 10px;
+  display: block;
+  align-items: center;
 }
 
 .header-icon-envelope:hover,
 .header-icon-envelope:focus,
-.nav-mail:hover,
-.nav-mail:focus,
 .nav-number:hover,
 .nav-number:focus {
   color: var(--hover-color);
 }
-.header-icon-envelope:hover svg,
-.header-icon-envelope:focus svg,
-.nav-mail:hover svg,
-.nav-mail:focus svg,
+.header-icon-smartphone:hover svg,
+.header-icon-smartphone:focus svg,
 .nav-number:hover svg,
 .nav-number:focus svg {
   --color2: #2196f3;
@@ -300,6 +299,8 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: var(--color-white);
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
 
 .social-icons-frontend-developer {
